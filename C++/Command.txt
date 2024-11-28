@@ -1,0 +1,19 @@
+
+
+// to run a simple c++/c file use this args :
+
+[
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ]
+
+// to run openMp file use this args:
+
+[   "-fopenmp", 
+    "-o", 
+    "${fileDirname}\\${fileBasenameNoExtension}.exe", 
+    "${file}"
+    ]

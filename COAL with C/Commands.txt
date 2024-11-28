@@ -1,0 +1,16 @@
+Using GCC Compiler:
+
+1) For Assembly File (.s):
+
+	>> gcc -S task1.c -o task1.s
+	
+	// 32 bit
+	>> gcc -S -m32 task1.c -o task1.s
+
+2) For Object File (.o):
+
+	>> gcc -c task1.c -o task1.o
+
+3) For Executable File (.exe);
+
+	>> gcc task1.c -o task1.exe
