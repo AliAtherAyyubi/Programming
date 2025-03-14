@@ -10,4 +10,8 @@ def even():
         if(i%2==0):
             print("Even Number:",i)
 
-even()
+# even()
+
+strs = ["flower","flow","flight"]
+print(len(strs[0]))
+print(strs[0][1])
